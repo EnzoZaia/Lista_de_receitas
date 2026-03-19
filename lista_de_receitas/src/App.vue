@@ -1,3 +1,11 @@
-    <template>
-      <h1>Meu primeiro projeto Vue!</h1>
-    </template>
+<script setup lang="ts">
+import Banner from './components/banner.vue';
+
+</script>
+
+<template>
+  <Banner />
+</template>
+
+<style scoped>
+</style>
